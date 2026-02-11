@@ -17,3 +17,7 @@
   `meowAPI.getInfo(target)` - Получает информацию о кормушке (target - цифровой ID кормушки)
 
   `meowAPI.getImg(target)` - Получает превью кормушки (target - информация о кормушке, полученная через `meowAPI.getInfo(target)`)
+
+
+
+  [Пример скрипта](https://github.com/Davidka4444/meowAPI/blob/main/example.lua)
