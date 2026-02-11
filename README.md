@@ -1,6 +1,6 @@
 # meowAPI
 ![Баннер](https://github.com/Davidka4444/meowAPI/blob/main/banner.jpg?raw=true)
-Библиотека для Lua, которая позволяет использовать API [meow.camera](https://meow.camera) 🐱
+Библиотека для Lua, которая позволяет использовать API [meow.camera](https://meow.camera) 😺
 
 Зависимости:
   
@@ -10,4 +10,10 @@
 
 Функции:
 
-  
+  `meowAPI.getRandom()` - Возвращает случайные кормушки в которых есть котики
+
+  `meowAPI.getFeatured()` - Возвращает популярные кормушки
+
+  `meowAPI.getInfo(target)` - Получает информацию о кормушке (target - цифровой ID кормушки)
+
+  `meowAPI.getImg(target)` - Получает превью кормушки (target - информация о кормушке, полученная через `meowAPI.getInfo(target)`)
