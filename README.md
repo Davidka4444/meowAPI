@@ -1,23 +1,17 @@
 # meowAPI
 ![Баннер](https://github.com/Davidka4444/meowAPI/blob/main/banner.jpg?raw=true)
-Библиотека для Lua, которая позволяет использовать API [meow.camera](https://meow.camera) 😺
+Библиотека для Lua, которая позволяет использовать API [meow.camera](https://meow.camera "Сайт meow.camera") 😺
 
 Зависимости:
-  
-  [LuaSocket](https://github.com/lunarmodules/luasocket)
-  
-  [Cjson](https://github.com/mpx/lua-cjson)
+ * [LuaSocket](https://github.com/lunarmodules/luasocket)
+ * [Cjson](https://github.com/mpx/lua-cjson)
 
-Функции:
+## Функции
+| Функция       | Информация         |
+| ------------- |:------------------:|
+| `meowAPI.getRandom()`      | Возвращает случайные кормушки в которых есть котики                                                       |
+| `meowAPI.getFeatured()`    | Возвращает популярные кормушки                                                                            |
+| `meowAPI.getInfo(target)`  | Получает информацию о кормушке (target - цифровой ID кормушки)                                            |
+| `meowAPI.getImg(target)`   | Получает превью кормушки (target - информация о кормушке, полученная в `meowAPI.getInfo(target)`)         |
 
-  `meowAPI.getRandom()` - Возвращает случайные кормушки в которых есть котики
-
-  `meowAPI.getFeatured()` - Возвращает популярные кормушки
-
-  `meowAPI.getInfo(target)` - Получает информацию о кормушке (target - цифровой ID кормушки)
-
-  `meowAPI.getImg(target)` - Получает превью кормушки (target - информация о кормушке, полученная через `meowAPI.getInfo(target)`)
-
-
-
-  [Пример скрипта](https://github.com/Davidka4444/meowAPI/blob/main/example.lua)
+### [Пример скрипта](https://github.com/Davidka4444/meowAPI/blob/main/example.lua "(клик)")
